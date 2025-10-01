@@ -16,15 +16,14 @@
             <form>
                 <div class="row">
                     <div class="mb-3 col-6">
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Tu nombre">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Tu nombre/s">
                     </div>
                     <div class="mb-3 col-6">
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Tu nombre">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Tu apellido/s">
                     </div>
                 </div>
-                < class="row">
-                    <div>
-                        <div class="col-md-3">
+                <div class="row">
+                        <div class="col-4 md-3">
                             <label for="validationCustom04" class="form-label">Dia</label>
                             <select class="form-select" id="validationCustom04" required>
                                 <option>1</option>
@@ -63,43 +62,83 @@
                                 Porfavor ingresa un dia valido.
                             </div>
                         </div>
-                    </div>
+                        <div class="col-4 md-3">
+                            <label for="validationCustom04" class="form-label">Mes</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Porfavor ingresa un mes valido.
+                            </div>
+                        </div>
+                        <div class="col-4 md-3">
+                            <label for="validationCustom04" class="form-label">Año</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Porfavor ingresa un año valido.
+                            </div>
+                        </div>
                 </div>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" name="nombre" id="nombre"
-                            placeholder="Qué nombre te pusieron tus papás">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            Hombre
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                            Mujer
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                            value="option3">
-                        <label class="form-check-label" for="exampleRadios3">
-                            Otro
-                        </label>
-                    </div>
-                
-                    <button type="reset" class="btn btn-primary mb-3">Limpia el formulario</button>
-                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
-                
-                </form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Correo</label>
+                    <input type="text" class="form-control" name="email" id="email"
+                        placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1"
+                        placeholder="No la compartas">
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Hombre
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Mujer
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        value="option3">
+                    <label class="form-check-label" for="exampleRadios3">
+                        Otro
+                    </label>
+                </div>
+
+                <button type="reset" class="btn btn-primary mb-3">Limpia el formulario</button>
+                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+
+            </form>
         </section>
     </main>
 
